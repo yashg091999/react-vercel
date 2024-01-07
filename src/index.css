@@ -1,0 +1,273 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* NAVBAR CSS */
+
+
+
+
+.content{
+  height: 10vh;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 990px;
+  padding: 20px;
+}
+
+.list>ul{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.list > ul{
+  list-style-type: none;
+}
+
+.img1{
+  width: 100px;
+  height: 50px;
+
+}
+
+.anch{
+  text-decoration: none;
+  color: black;
+}
+
+.anch:focus{
+  color: aqua;
+}
+
+
+
+/* HERO CSS */
+
+.bg-hero{
+
+  background-color: #d9e5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 950px;
+}
+
+.hero-text{
+  width: 50%;
+}
+
+
+.stack{
+  font-size: 4rem;
+}
+
+.hero-btn{
+  margin-top: 10px;
+}
+
+.hero-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.hero-img1{
+  width: 350px;
+  border-radius: 50%;
+}
+
+
+
+
+/* SKIllS-CSS */
+
+
+
+.skills-container{
+  background-color: #f0f8ff;
+  padding: 80px;
+
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  gap: 20px;
+}
+.skills-content{
+  display: grid;
+  grid-template-columns:  repeat(3,1fr);
+  align-items: center;
+  justify-content: space-around;
+  width:950px;
+  gap: 70px;
+}
+
+.skills-card{
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 350px;
+  background-color: #e4f8ff;
+  border-radius: 20px;
+}
+
+.skills-card:hover{
+  border-bottom: 7px solid blueviolet;
+}
+
+.skills-h1{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+
+
+/* AboutMe CSS */
+
+
+.aboutMe-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 50px;
+ height: 100vh;
+}
+
+.aboutMe-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 950px;
+  height: 70vh;
+
+}
+
+.aboutMe-img-container{
+ width: 50%;
+}
+.aboutMe-info{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 20px;
+}
+
+.aboutMe-info>p{
+  font-size: 20px;
+}
+.aboutMe-h1{
+  font-size: 50px;
+}
+
+
+.aboutMe-img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Contact Me */
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(5,auto);
+  width: 40%;
+  row-gap: 32px;
+  grid-row-gap: 32px;
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.label{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 30px;
+}
+
+input{
+  border-radius: 10px;
+  width: 200px;
+  height: 45px;
+}
+
+.btn1{
+  width: 100px;
+  margin-left: 230px;
+  margin-top: 30px;
+}
+
+
+/* Footer */
+
+
+.footer-content{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.icons{
+  padding: 10px;
+  display: flex;
+  gap: 2rem;
+}
+
+hr{
+  box-shadow: #e4f8ff;
+  margin-left: 250px;
+  width: 950px;
+}
